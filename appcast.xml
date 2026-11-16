@@ -6,6 +6,24 @@
         <description>Kora updates</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Mon, 16 Nov 2026 20:42:13 +1000</pubDate>
+            <sparkle:version>202611161038</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Kora 1.0.1</h2>
+<p>Two fixes for things that looked wrong in 1.0:</p>
+<ul>
+<li><strong>The grid keeps its pictures in their places.</strong> After making thumbnails smaller with the size slider, pictures could stay large and cover their neighbours and names. Each picture now redraws at its new size.</li>
+<li><strong>The window stays put as you move around the sidebar.</strong> Clicking a list or page with nothing in it yet (an empty Trash, for example) could make the window grow taller than the screen, pushing the sidebar under the window’s buttons. Pages now fit any window you choose.</li>
+</ul>
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/realbakari/kora-releases/main/downloads/Kora-1.0.1.zip" length="12501911" type="application/octet-stream" sparkle:edSignature="i37e7hxePVPUi626RgZQuRAUKUdM61hmcmNaLhA8PM5UdRp7W65VXmUB19o9Mlr45rFSgp8AigX2L4TCtozWAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/realbakari/kora-releases/main/downloads/Kora202611161038-202611160759.delta" sparkle:deltaFrom="202611160759" length="801118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aRLt6kkfoNYDI16JAcaFTmwknSygv8BvwLHu0RQWPZEg6MH05yhBoltF/TLLWam1ssWtoA/nwQzKoRhTUYYTCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Mon, 16 Nov 2026 18:10:31 +1000</pubDate>
             <sparkle:version>202611160759</sparkle:version>
